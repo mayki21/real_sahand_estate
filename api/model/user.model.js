@@ -14,6 +14,10 @@ const userSchema = new mongoose.Schema({
     password: {
         type: String,
         required: true
+    },
+    avatar: {
+        type: String,
+        default: "https://static.vecteezy.com/system/resources/previews/003/715/527/non_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-vector.jpg"
     }
 }, {
     timestamps: true
